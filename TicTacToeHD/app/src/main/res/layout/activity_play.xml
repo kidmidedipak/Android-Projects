@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:background="@drawable/game"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/playbackbtn"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/arrow" />
+
+
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="110dp"
+        android:id="@+id/play_offline_btn"
+        android:src="@drawable/play_offline"
+        android:layout_gravity="center"
+         />
+
+
+    <ImageView
+        android:layout_width="270dp"
+        android:layout_height="110dp"
+        android:id="@+id/create_online_game_btn"
+        android:text="Create Game Online"
+        android:src="@drawable/create_game"
+        android:layout_gravity="center"/>
+
+
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:id="@+id/game_id_input"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_corner"
+        android:inputType="number"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:textColorHint="@color/white"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:hint="Enter Game Id"/>
+
+    <ImageView
+
+        android:layout_width="280dp"
+        android:layout_height="110dp"
+        android:id="@+id/join_online_game_btn"
+        android:src="@drawable/join_game"
+        android:layout_gravity="center"
+        android:padding="8dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-7193810949980454/1326237491">
+
+        </com.google.android.gms.ads.AdView>
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

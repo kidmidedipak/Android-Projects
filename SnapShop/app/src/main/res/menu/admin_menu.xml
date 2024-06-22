@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/dashboard"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Dashboard"/>
+        <item android:id="@+id/product"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Products"/>
+        <item android:id="@+id/category"
+            android:icon="@drawable/mobile_icon"
+            android:title="Categorys"/>
+<!--        <item android:id="@+id/apitest"-->
+<!--            android:icon="@drawable/baseline_home_24"-->
+<!--            android:title="API Test"/>-->
+<!--        <item android:id="@+id/spinnerOrACtxt"-->
+<!--            android:icon="@drawable/baseline_home_24"-->
+<!--            android:title="List Types"/>-->
+<!--        <item android:id="@+id/productlist"-->
+<!--            android:icon="@drawable/baseline_home_24"-->
+<!--            android:title="Product list"/>-->
+
+    </group>
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/about"
+                    android:icon="@drawable/baseline_account_circle_24"
+                    android:title="About"/>
+                <item android:id="@+id/logout"
+                    android:icon="@drawable/baseline_home_24"
+                    android:title="Logout"/>
+            </group>
+        </menu>
+    </item>
+<!--    <item android:title="Communication">-->
+<!--            <menu>-->
+<!--                <group android:checkableBehavior="single">-->
+<!--                    <item android:id="@+id/share"-->
+<!--                        android:icon="@drawable/baseline_home_24"-->
+<!--                        android:title="Share"/>-->
+<!--                    <item android:id="@+id/rate_us"-->
+<!--                        android:icon="@drawable/baseline_home_24"-->
+<!--                        android:title="Rate Us"/>-->
+
+
+<!--                </group>-->
+<!--            </menu>-->
+<!--        </item>-->
+</menu>

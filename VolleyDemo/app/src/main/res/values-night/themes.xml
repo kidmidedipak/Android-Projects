@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.VolleyDemo" parent="Theme.AppCompat">
+        <!-- Customize your dark theme here. -->
+         <item name="colorPrimary">#2196f3</item>
+        <item name="colorPrimaryDark">#1970b6</item>
+        <item name="colorAccent">#f8bc08</item>
+        <item name="android:windowBackground">#f8bc08</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="android:textColorSecondary">#86f61f</item>
+
+        <item name="android:windowAnimationStyle">
+            @style/MyCustomActivityAnimation</item>
+    </style>
+
+    <style name="MyCustomActivityAnimation"
+        parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">
+             @anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">
+            @anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">
+            @anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">
+            @anim/slide_out_right</item>
+    </style>
+</resources>

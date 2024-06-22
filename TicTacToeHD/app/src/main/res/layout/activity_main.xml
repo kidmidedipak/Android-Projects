@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/game"
+    tools:context=".MainActivity">
+
+
+
+      <ImageView
+          android:layout_width="100dp"
+          android:layout_height="60dp"
+          android:id="@+id/carelogo"
+          android:src="@drawable/customer"
+          android:layout_alignRight="@id/logo"
+          android:layout_marginTop="15dp"
+
+          />
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/splash_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"/>
+
+
+    <ImageView
+        android:id="@+id/playbtn"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="90dp"
+        android:src="@drawable/play"
+        android:layout_below="@id/logo"
+        />
+
+    <ImageView
+        android:id="@+id/rulesbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/rules"
+        android:layout_below="@id/playbtn"/>
+
+
+
+    <ImageView
+        android:id="@+id/exitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="90dp"
+        android:src="@drawable/exit"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/rulesbtn"/>
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginBottom="7dp"
+        android:layout_centerHorizontal="true"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-7193810949980454/1086015601">
+
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

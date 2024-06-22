@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "697061998513",
+    "project_id": "tictactoe-hd",
+    "storage_bucket": "tictactoe-hd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697061998513:android:2c51d938a0eb79ada1c790",
+        "android_client_info": {
+          "package_name": "com.tvkapps.tictactoehd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbs8HkL-ki8dc3gJCUjlNd32jDy2J_QRM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

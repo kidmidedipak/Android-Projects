@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.VolleyDemo" parent="Theme.AppCompat.Light">
+        <!-- Customize your light theme here. -->
+<!--        <item name="colorPrimary">#E91E63</item>-->
+        <item name="colorPrimary">#E91E63</item>
+        <item name="colorPrimaryDark">#EA5789</item>
+        <item name="colorAccent">#4CAF50</item>
+<!--        <item name="android:windowBackground">#009688</item>-->
+        <item name="android:textColorPrimary">#0B0909</item>
+        <item name="android:textColorSecondary">#FF5722</item>
+        <item name="android:windowAnimationStyle">
+            @style/MyCustomActivityAnimation</item>
+    </style>
+
+    <style name="MyCustomActivityAnimation"
+        parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">
+            @anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">
+            @anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">
+            @anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">
+            @anim/slide_out_right</item>
+    </style>
+
+    <style name="Theme.VolleyDemo" parent="Base.Theme.VolleyDemo" />
+
+
+
+</resources>

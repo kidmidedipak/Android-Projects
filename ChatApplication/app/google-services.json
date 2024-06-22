@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "268635809187",
+    "project_id": "chatapp-48d54",
+    "storage_bucket": "chatapp-48d54.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268635809187:android:247d201cb27289efb3a616",
+        "android_client_info": {
+          "package_name": "com.dipak.chatapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt8ENXRaGNN22H9I9GxhzNBoU_Jaz2h2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

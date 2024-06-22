@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "509450983131",
+    "project_id": "dipakkidmide",
+    "storage_bucket": "dipakkidmide.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509450983131:android:9f9a83926850135e299efe",
+        "android_client_info": {
+          "package_name": "com.dipak.volleydemo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnISqLuTzZhvrKw-ROznEvFsB6UiiDFDc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

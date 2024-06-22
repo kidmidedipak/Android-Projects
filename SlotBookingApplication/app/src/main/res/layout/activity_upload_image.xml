@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" 
+    tools:context=".MainActivity"
+     android:layout_height="match_parent" android:layout_width="match_parent">
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_launcher_foreground" />
+
+
+    <ImageView
+        android:id="@+id/dbimg"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/imageView"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_launcher_foreground" />
+
+    <EditText
+        android:id="@+id/getimgeId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/dbimg"
+        android:hint="Enter image Id"
+        />
+
+
+    <Button
+        android:id="@+id/dbbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/getimgeId"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Load Db Image" />
+
+    <EditText
+        android:id="@+id/getImgUrl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/dbbtn"
+        android:hint="Enter image URL"
+        />
+    <Button
+        android:id="@+id/btnAddImgFormUrl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/getImgUrl"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Add Image URL" />
+    <Button
+        android:id="@+id/btnChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/btnAddImgFormUrl"
+        android:layout_marginBottom="16dp"
+        android:text="Choose Image" />
+
+</RelativeLayout>
+</ScrollView>

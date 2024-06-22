@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg_bg"
+    tools:context=".common.activity.LoginActivity">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/baseline_account_circle_24"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_below="@+id/logo"
+        android:gravity="center"
+        android:id="@+id/login"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/login"
+        android:background="@drawable/textbox"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:hint="Enter your email"
+        android:textColorHint="@color/black"
+        android:padding="15dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:textColorHint="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@id/editTextEmail"
+        android:background="@drawable/textbox"
+        android:inputType="textPassword"
+        android:drawablePadding="20dp"
+        android:drawableLeft="@drawable/password_icon"
+        android:hint="Enter your password"
+        android:padding="15dp"
+        />
+
+        <CheckBox
+            android:id="@+id/showPasswordCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Password"
+            android:textStyle="bold"
+            android:layout_below="@id/editTextPassword"
+            android:layout_alignEnd="@+id/editTextPassword"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/showPasswordCheckBox"
+        android:layout_margin="10dp"
+        android:background="@drawable/button"
+        android:text="Log In"
+        android:textSize="15dp"
+
+        />
+
+    <TextView
+        android:id="@+id/createNewAc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Register"
+        android:textSize="16dp"
+        android:layout_below="@id/buttonLogin"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createNewAc"
+        android:id="@+id/sociallink"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/fbicon"
+            android:layout_margin="20dp"/>
+
+     <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/google"
+                android:layout_margin="20dp"/>
+
+     <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/twiter_icon"
+                android:layout_margin="20dp"/>
+
+
+    </LinearLayout>
+    <!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Login"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginBottom="16dp"/>-->
+
+<!--    &lt;!&ndash; Email Input Field &ndash;&gt;-->
+<!--    <EditText-->
+<!--        android:id="@+id/editTextEmail"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter email"-->
+<!--        android:inputType="textEmailAddress"-->
+<!--        android:layout_marginBottom="8dp"/>-->
+
+<!--    &lt;!&ndash; Password Input Field &ndash;&gt;-->
+<!--    <EditText-->
+<!--        android:id="@+id/editTextPassword"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Enter password"-->
+<!--        android:inputType="textPassword"-->
+<!--        android:layout_marginBottom="16dp"/>-->
+
+<!--    &lt;!&ndash; Login Button &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/buttonLogin"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Login"/>-->
+
+</RelativeLayout>
