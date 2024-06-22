@@ -735,7 +735,7 @@ public class ChatActivity extends AppCompatActivity {
                                 //put params
                                 Map<String,String> headers=new HashMap<>();
                                 headers.put("Content-Type","application/json");
-                                headers.put("Authorization","key=AAAADAEG_AU:APA91bG67b5DylgfejVqUzUdRiv8ggWYPSo3IKl9Rlxh0zGsZ6nQaeBaEleyEyIBEDG2mbAB6CT2zZgKTfTKLOGdxT8ADMk2ET9-s3rE5SAFXoZz5sCRr3jdUGqqjsJOAmk-Fgj2oO4D");
+                                headers.put("Authorization","key=firebase_fcm_key_here");
                                 return headers;
                             }
                         };
