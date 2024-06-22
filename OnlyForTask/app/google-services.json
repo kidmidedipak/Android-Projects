@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "102007700235",
+    "project_id": "adminpnl-c0bf1",
+    "storage_bucket": "adminpnl-c0bf1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102007700235:android:c9cf51314940393df1000e",
+        "android_client_info": {
+          "package_name": "com.dipak.onlyfortask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB90SYs2iG9Lc57Y97z3DUeFtMYxzN08I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

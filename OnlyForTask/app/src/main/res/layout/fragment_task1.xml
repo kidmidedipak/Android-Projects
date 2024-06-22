@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/custom_spinner_background"
+        android:dropDownVerticalOffset="40dp"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_10dp"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:weightSum="3">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_total"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_35dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn_white"
+            android:backgroundTint="@color/cardGrayBg"
+            android:text="TOTAL"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_free"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_35dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn_white"
+            android:backgroundTint="@color/green"
+            android:text="FREE"
+            android:textColor="@color/black"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_assigned"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_35dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn_white"
+            android:backgroundTint="@color/cardGrayBg"
+            android:text="ASSIGNED"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_10dp"
+        android:weightSum="3">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_low_stock"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_35dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn_white"
+            android:backgroundTint="@color/light_orange"
+            android:text="LOW STOCK"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_available"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_35dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn_white"
+            android:backgroundTint="@color/light_blue"
+            android:text="AVAILABLE"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_empty"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_35dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_btn_white"
+            android:backgroundTint="@color/light_red"
+            android:text="EMPTY"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/darker_gray"/>
+
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="4"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:columnWidth="100dp"
+        android:padding="5dp"
+        tools:listitem="@layout/grid_item"
+        />
+
+</LinearLayout>

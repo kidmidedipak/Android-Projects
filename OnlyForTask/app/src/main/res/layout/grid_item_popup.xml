@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:outlineAmbientShadowColor="@color/black"
+    android:outlineSpotShadowColor="@color/black"
+    android:elevation="@dimen/dimen_20dp"
+    app:cardCornerRadius="@dimen/dimen_15dp"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/dimen_5dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+    <LinearLayout
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_35dp"
+        android:gravity="center"
+        android:background="@color/light_orange"
+        >
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title 1"
+            android:textStyle="bold"
+            android:textSize="@dimen/dimen_20dp"
+            />
+
+    </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Describe containt here "
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_10dp"
+            android:weightSum="3">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_low_stock"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dimen_35dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_btn_white"
+                android:backgroundTint="@color/light_orange"
+                android:text="LOW STOCK"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_available"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dimen_35dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_btn_white"
+                android:backgroundTint="@color/light_blue"
+                android:text="AVAILABLE"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_empty"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/dimen_35dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_btn_white"
+                android:backgroundTint="@color/light_red"
+                android:text="EMPTY"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/dimen_35dp"
+        android:background="@drawable/bg_btn_white"
+        android:backgroundTint="@color/green"
+        android:text="OK"
+        android:layout_marginTop="@dimen/dimen_20dp"
+        android:layout_marginBottom="@dimen/dimen_20dp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

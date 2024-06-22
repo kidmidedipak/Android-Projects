@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="white_transparant_10">#19FFFFFF</color>
+    <color name="white_transparant_20">#36FFFFFF</color>
+    <color name="white_transparant_30">#4DFFFFFF</color>
+    <color name="white_transparant_40">#65FFFFFF</color>
+    <color name="white_transparant_50">#83FFFFFF</color>
+    <color name="white_transparant_60">#AEFFFFFF</color>
+    <color name="white_transparant_70">#D0FFFFFF</color>
+
+    <color name="teal">#448A60</color>
+    <color name="light_blue">#E6438CED</color>
+    <color name="grey">#666666</color>
+    <color name="grey80">#CB666666</color>
+    <color name="red">#F61B0B</color>
+    <color name="light_red">#E2FE4A4B</color>
+    <color name="rosey">#ED1150</color>
+    <color name="btn_dark_red">#d32a30</color>
+    <color name="dark_red">#832226</color>
+
+    <color name="primary_theme">@color/rosey</color>
+    <color name="til_label_color">@color/primary_theme</color>
+    <color name="bg_btn">#56c8e2</color>
+    <color name="green">#2c9148</color>
+    <color name="cardGrayBg">#f0e7de</color>
+    <color name="light_orange">#E6FF8E2C</color>
+    <color name="Grass_1">#AAD8B1</color>
+    <color name="sky_blue">#8FB8D8</color>
+    <color name="casuality_theme">#F1D788</color>
+
+    <color name="leave_color">#FFCDD2</color> <!-- Example: Light Red -->
+    <color name="working_color">#C8E6C9</color> <!-- Example: Light Green -->
+    <color name="off_color">#BBDEFB</color> <!-- Example: Light Blue -->
+
+
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cv_visitorlist"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentStart="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true"
+    android:layout_alignParentBottom="true"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="@dimen/dimen_5dp"
+    android:outlineAmbientShadowColor="@color/black"
+    android:outlineSpotShadowColor="@color/black"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="@dimen/dimen_10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_10dp" >
+
+        <TextView
+            android:id="@+id/tv_label_batch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dimen_10dp"
+            android:layout_weight="2"
+            android:text="Batch Number : "
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_batchNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tv_label_batch"
+            android:layout_weight="2"
+            android:text="BTNO1034"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/tv_label_qty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_batchNo"
+            android:layout_marginStart="@dimen/dimen_10dp"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:text="Quantity : "
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/tv_qty"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:layout_toRightOf="@+id/tv_label_qty"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_batchNo"
+            android:layout_weight="1"
+            android:text="150"
+            android:textColor="@color/black" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
