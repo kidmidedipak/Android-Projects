@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_blue">#03A9F4</color>
+    <color name="light_green">#16ff08</color>
+    <color name="gray">#D6D2D2</color>
+
+    <color name="rosey">#ED1150</color>
+    <color name="holo_red_light">@android:color/holo_red_light</color>
+    <color name="light_red90">#E6FE4A4B</color>
+
+
+    <color name="loginbg">#5E35B1</color>
+    <color name="loginbg2">#673AB7</color>
+
+
+    <color name="titanwhite">#BFDBF7</color>
+</resources>

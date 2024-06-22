@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "483218325702",
+    "project_id": "connect-d4a29",
+    "storage_bucket": "connect-d4a29.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:483218325702:android:4d0079c641f68d8f5417c7",
+        "android_client_info": {
+          "package_name": "com.tvkapps.connect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEx6EvGQUS5qv0tSwt_WjCrLrMVu95SLU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
